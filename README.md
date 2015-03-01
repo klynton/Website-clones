@@ -15,3 +15,7 @@ Sliding left-side menu with sliding sub menus.
 Onhover color changing links. 
 
 
+TheNewBostonReplica is a mock rough draft of TheNewBoston.com home page. 
+
+
+
