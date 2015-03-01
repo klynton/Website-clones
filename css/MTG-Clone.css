@@ -512,7 +512,7 @@ body
 	.main-image 
 	{
 		position:relative;
-		background:url("images/GarrukStill.jpg") 50% 50% no-repeat;
+		background:url("../images/GarrukStill.jpg") 50% 50% no-repeat;
 		width:100%;
 		height:350px;
 		background-size:cover;
@@ -568,7 +568,7 @@ body
 
 	.image-background
 	{
-		background:url("images/EN_UnimaginablePower_InlineL_A.jpg") 0 0 no-repeat;
+		background:url("../images/EN_UnimaginablePower_InlineL_A.jpg") 0 0 no-repeat;
 		position:relative;
 		width:100%;
 		height:300px;
@@ -608,7 +608,7 @@ body
 	.image-background-2 
 	{
 		position:relative;
-		background:url("images/EN_YourGame_InlineR_A.jpg") 100% 0 no-repeat;
+		background:url("../images/EN_YourGame_InlineR_A.jpg") 100% 0 no-repeat;
 		left:0;
 		width:100%;
 		height:300px;
@@ -637,7 +637,7 @@ body
 
 	.image-background-3 
 	{
-		background:url("images/EN_MagicOnline_InlineL_A_2.jpg") -40px 0 no-repeat;
+		background:url("../images/EN_MagicOnline_InlineL_A_2.jpg") -40px 0 no-repeat;
 		width:100%;
 		height:300px;
 		position:relative;
@@ -670,7 +670,7 @@ body
 		position:relative;
 		margin-top:111px;
 		padding:25px 8px 0px;
-		background:#000 url("images/where-to-buy-background.jpg") center top no-repeat;
+		background:#000 url("../images/where-to-buy-background.jpg") center top no-repeat;
 	}
 
 	.footer-container 
@@ -687,7 +687,7 @@ body
 		height:40px;
 		background:red;
 		left:50%;
-		background:url("images/back-to-top.png") center top no-repeat;
+		background:url("../images/back-to-top.png") center top no-repeat;
 		text-align:center;
 		-webkit-transform:translate(-50%,0);
 		-ms-transform:translate(-50%,0);
@@ -938,7 +938,7 @@ body
 
 	.wizard-logo
 	{
-		background:url("images/wizard-of-the-coast-logo.png") 0 0 no-repeat;
+		background:url("../images/wizard-of-the-coast-logo.png") 0 0 no-repeat;
 		background-size:100% auto;
 		width:100%;
 		height:100%;
@@ -947,7 +947,7 @@ body
 
 	.hasbro-logo
 	{
-		background:url("images/interface/hasbro-logo.svg") 0 0 no-repeat;
+		background:url("..//interface/hasbro-logo.svg") 0 0 no-repeat;
 		background-size:100% auto;
 		width:100%;
 		height:100%;
@@ -956,7 +956,7 @@ body
 
 	.esrb-logo 
 	{
-		background:url("images/esrb-badge.png") 0 0 no-repeat;
+		background:url("../images/esrb-badge.png") 0 0 no-repeat;
 		background-size:100% auto;
 		width:100%;
 		height:100%;
