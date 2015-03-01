@@ -1,0 +1,571 @@
+body 
+{
+	padding:0;
+	margin:0;
+	font-size:16px;
+	font-family:Arial,Helvetica,sans-serif;
+	background:#f0f0f0;
+}
+
+body:after 
+{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+*
+{
+	box-sizing:border-box;
+}
+
+.main-header 
+{
+	position:relative;
+	background:#323232;
+	width:100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,.9);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:30;
+}
+
+.main-header:after
+{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+.nav-container 
+{
+	width:1100px;
+	margin:0 auto;
+}
+
+.top-nav 
+{
+	height:35px;
+	position:relative;
+	padding:0;
+	margin:0;
+	line-height:34px;
+	list-style:none;
+}
+
+.left 
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.top-nav > li 
+{
+	float:left;
+	padding:0px 15px;
+	border-right:1px solid #000;
+	
+}
+
+.top-nav > li:first-child
+{
+	border-left:1px solid #000;
+	position:relative;
+}
+
+.top-nav > li:hover 
+{
+	background:#000;
+}
+
+.top-nav > li > a 
+{
+	display:inline-block;
+	text-decoration:none;
+	color:#dbdbdb;
+	font-size:.73em;
+	font-weight:600;
+}
+
+.top-nav > li > a:hover 
+{
+	color:#fff;
+}
+
+.home 
+{
+	background: url("https://www.thenewboston.com/images/home.png") top left no-repeat;
+	width:26px;
+	height:23px;
+	display:block;
+	position:relative;
+}
+
+.home:hover 
+{
+	background:url("https://www.thenewboston.com/images/home_hover.png") top left no-repeat;
+}
+
+
+.top-nav input 
+{
+	padding-top:2px;
+	width:140px;
+}
+
+.email
+{
+	margin-right:5px;
+}
+
+.top-nav form,
+.top-nav button
+{
+	float:left;
+}
+
+.top-nav .log-in 
+{
+	background:#b90000;
+	display:block;
+	margin-top:8px;
+	margin-left:10px;
+	border:none;
+	color:#fff;
+	padding:2px 8px;
+	cursor:pointer;
+}
+
+.top-nav .log-in:hover 
+{
+	background:#880000;
+}
+
+.has-sub-menu 
+{
+	position:relative;
+}
+
+.has-sub-menu:hover .sub-menu
+{
+	display:block;
+}
+
+.sub-menu 
+{
+	position:absolute;
+	top:35px;
+	left:0;
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:rgba(0,0,0,.9);
+	padding:10px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.8);
+	display:none;
+	z-index:30;
+}
+
+.has-sub-menu ul.sub-menu.wide 
+{
+	width:100px;
+}
+
+.sub-menu li 
+{
+	
+}
+
+.sub-menu a 
+{
+	line-height:initial;
+	padding:0;
+	margin:0;
+	display:block;
+	font-size:.80rem;
+	text-decoration:none;
+	color:#c0c0c0;
+}
+
+.sub-menu a:hover 
+{
+	color:#fff;
+}
+.has-sub-menu .sub-menu-header 
+{
+	text-decoration:underline;
+	color:#ff0000;
+}
+
+
+.main-container
+{
+	width:1100px;
+	margin:0 auto;
+	background:#323232;
+}
+
+.main-container:after
+{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+header 
+{
+	border-bottom:1px solid #e0e0e0;
+	width:1100px;
+	margin:0 auto;
+	margin-top:35px;
+}
+
+header:after 
+{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+header a 
+{
+	font-size:26px;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	color:#000;
+	padding:10px 10px 10px 0px;
+	display:inline-block;
+	font-weight:600;
+	border-bottom:1px solid #e0e0e0;
+}
+
+header span 
+{
+	color:#ff0000;
+}
+
+
+.side-panel
+{
+	float:left;
+}
+
+.side-panel 
+{
+	background:#323232;
+	width:200px;
+	padding:10px 10px;
+}
+
+.side-panel:after,
+.side-navigation:after
+{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+.side-navigation
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.side-navigation li 
+{
+	width:100%;
+	height:35px;
+	background:red;
+	margin-bottom:10px;
+	position:relative;
+}
+
+.side-navigation li:hover 
+{
+	background-color:#1CBFFF;
+}
+
+li[class^="icon-"]:before 
+{
+	left:8px;
+	top:4px;
+	content:"";
+	display:block;
+	width:26px;
+	height:26px;
+	position:absolute;
+	background-size:100%;
+}
+
+li.icon-1 
+{
+	background:#BA3838;
+}
+
+.icon-1:before 
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/code.png") 0 0 no-repeat;
+}
+
+li.icon-2
+{
+	background:#2B62BA;
+}
+
+.icon-2:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/graph.png") 0 0 no-repeat;
+}
+
+li.icon-3
+{
+	background:#27B372;
+}
+
+.icon-3:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/science.png") 0 0 no-repeat;
+}
+
+li.icon-4
+{
+	background:#8B4EBA;
+}
+
+.icon-4:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/book.png") 0 0 no-repeat;
+}
+
+li.icon-5
+{
+	background:#FF7C0A;
+}
+
+.icon-5:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/globe.png") 0 0 no-repeat;
+}
+
+li.icon-6
+{
+	background:#2B62BA;
+}
+
+.icon-6:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/bullish.png") 0 0 no-repeat;
+}
+
+li.icon-7 
+{
+	background:#BA3838;
+}
+
+.icon-7:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/forum.png") 0 0 no-repeat;
+}
+
+li.icon-8
+{
+	background:#2B62BA;
+}
+
+.icon-8:before
+{
+	background:url("https://www.thenewboston.com/images/homepage_images/white/arrow.png") 0 0 no-repeat;
+}
+
+.side-navigation a 
+{
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:35px;
+	font-size:12px;
+	font-weight:600;
+	text-decoration:none;
+	color:#fff;
+	padding-left:40px;
+	position:relative;
+	background:rgba(120,120,120,.2);
+}
+
+.main-content
+{
+	background:#fff;
+	width:900px;
+	margin:0;
+	float:right;
+	padding:10px 20px;
+	position:relative;
+}
+
+.main-content:after 
+{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+.main-content h3
+{
+	padding:0;
+	margin:0 0 5px 0;
+	font-size:.9rem;
+	color:#555;
+}
+
+.main-content p 
+{
+	font-size:.8rem;
+	margin:0;
+}
+
+.video-container 
+{
+	margin:30px 0;
+}
+
+.video-container:after 
+{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+.video-container a 
+{
+	text-decoration:none;
+}
+
+
+.Courses-and-Forums
+{
+	width:100%;
+	float:left;
+}
+
+.Courses-and-Forums img 
+{
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,.4);
+}
+
+.Courses-and-Forums:after 
+{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+.first-column,
+.second-column
+{
+	width:410px;
+}
+
+.first-column
+{
+	float:left;
+	margin-right:20px;
+}
+
+.second-column
+{
+	float:left;
+}
+
+.section-title
+{
+	font-size:15px;
+	font-weight:bold;
+	color:#444;
+}
+
+.section-title a 
+{
+	font-size:11px;
+	text-decoration:none;
+}
+
+.inner-row 
+{
+	margin-top:10px;
+	background-color:#f3f3f3;
+	border:1px solid #ddd;
+}
+
+.courses img 
+{
+	width:100px;
+	height:50px;
+	float:left;
+	margin-right:10px;
+}
+
+.inner-row-content 
+{
+	padding:8px;
+	border-bottom:1px solid #ddd;
+}
+
+.inner-row-content:last-child
+{
+	border-bottom:none;
+}
+
+.inner-row:after,
+.inner-row-content:after
+{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+
+.inner-row a + a
+{
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	letter-spacing:0px;
+	display:inline-block;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-bottom:3px;
+}
+
+.courses p 
+{
+	font-size:12px;
+	color:#9d9d9d;
+}
+
+
+.forums img 
+{
+	width:75px;
+	height:83px;
+	float:left;
+	margin-right:10px;
+}
+
+.forums p 
+{
+	color:#777;
+}
+
+
+
+
+
+
+
+
+
